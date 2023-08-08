@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+body,input,button{
+    font-family: 'Urbanist', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 150px;
+    margin-right: 100px;
+    
+    
+}
+
+input{
+    width: 530px;
+    height: 40px;
+    margin : 10px 0px;
+    background-color: #fff;
+    border: 3px solid #231f20;
+    padding: 10px 10px;
+
+
+    border-radius: 2px;
+
+}
+#country{
+    width: 553px;
+    height: 63px;
+    margin: 10px 0px;
+    background-color: #fff;
+    border: 3px solid #231f20;
+padding: 10px 10px;
+    border-radius: 2px;
+}
+#register{
+    background-color: #231f20;
+    color: #fff;
+    height: 55px;
+    width: 200px;
+    margin : 0px 10px;
+    margin-bottom: 95px;
+}
+#main > div{
+    margin: 10px;
+}
+@media screen and (max-width: 968px) {
+    #main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}

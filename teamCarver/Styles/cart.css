@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+*{
+    margin: 0px;
+}
+/* header{
+    width:100%;
+    height: 90px;
+} */
+#cart_heading{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-size:20px;
+    font-family:'Montserrat', sans-serif;
+}
+#cartDisplay{
+    margin-bottom: 80px;
+    text-align: center;
+}
+#cartDisplay>h3{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family:'Montserrat', sans-serif; 
+}
+#cartDisplay>button{
+     padding: 20px 40px;
+    letter-spacing: 3px;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    font-weight: 400;
+    transition: all .3s ease;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    background-color: #353535;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+#cartDisplay>button:hover{
+    color: #353535;
+    background-color: #f8f7f6;
+    border: none;
+    cursor: pointer;
+}
+#cartMain>#bestseller_section>#emptyHeadingDiv>h1{
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 32px;
+   
+    font-family:'Montserrat', sans-serif;
+
+}
+#cartMain>#bestseller_section>#ProductDiv{
+    display:flex;
+   
+}
+#cartMain>#bestseller_section>#ProductDiv>.seller{
+    width:25%;
+    margin:0px 5px;
+    text-align: center;
+}
+#cartMain>#bestseller_section>#ProductDiv>.seller>img{
+    width:100%;
+}
+#cartMain>#bestseller_section>#ProductDiv>.seller>a{
+    align-self: center;
+    color: #353535;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+#cartMain>#bestseller_section>#ProductDiv>.seller>a:active{
+    border: 2px solid #231f20;
+}
+#cartMain>#bestseller_section>#ProductDiv>.seller>p{
+color: #494744;
+font-weight:700;
+}
+table{
+width:100%;
+margin-bottom: 27px;
+color:#353535;
+}
+table>thead>tr>th{
+    text-align: left;
+    border-bottom: 1px solid  grey;
+    padding-bottom: 15px;
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
+}
+table>thead>tr>th:first-child{
+    width:50%;
+    padding-left: 30px;
+}
+table>thead>tr>th:nth-child(4){
+    text-align: right;
+    padding-right: 30px;
+}
+table>thead>tr>th:nth-child(2){
+    width:16.5%;
+}
+table>tbody>tr>td{
+    text-align: left;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid  grey;
+}
+table>tbody>tr>td:nth-child(1){
+padding-top:20px;
+display:flex;
+justify-content: space-between;
+}
+table>tbody>tr>td:nth-child(1)>#tdDiv{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;  
+}
+table>tbody>tr>td:nth-child(1)>#tdDiv>div{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+table>tbody>tr>td:nth-child(4){
+    text-align: right;
+    padding-right: 30px;
+}
+table>tbody>tr>td:nth-child(1)>#tdDiv>#removeDiv>a{
+    color:grey;
+    cursor:pointer;
+    text-decoration: underline;
+}
+table>tbody>tr>td:nth-child(3)>#quantityBloc{
+    display:flex;
+    border:1px solid #cecece;
+    width:50px;
+    height: 60px;
+}
+table>tbody>tr>td:nth-child(3)>#quantityBloc>P{
+    padding-top: 15px;
+    padding-left:8px;
+    padding-right:9px;
+}
+table>tbody>tr>td:nth-child(3)>#quantityBloc>#buttonDiv>button{
+    display: block;
+    border:0.1px solid #cecece;
+    background-color: #fff;
+    border-radius: none;
+    height: 50%;
+}
+#cartDisplay>#main{
+    display:flex;
+}
+#cartDisplay>#main>div{
+    width:50%;
+}
+#cartDisplay>#main>#half2>#subdiv{
+display: flex;
+justify-content: space-between;
+width:60%;
+margin: 10px 15px 0px auto;
+font:16px;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
+#cartDisplay>#main>#half2>#orderDiv{
+    display:flex;
+    justify-content: space-between;
+    width:60%;
+    margin:10px 15px 0px auto ;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+#cartDisplay>#main>#half1{
+    text-align: left;
+    font: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left:20px;
+    color:#231f20;
+}
+#cartDisplay>#main>#half1>p{
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#cartDisplay>#main>#half1>#coupon>input{
+border: 2px solid black;
+padding : 0px 12px;
+height:59px;
+width:220px;
+}
+#cartDisplay>#main>#half1>#coupon>button{
+    color:white;
+    background-color: black;
+    height:62.5px;
+    border:1px;
+    width:140px;
+    padding:20px 40px;
+
+}
+#cartDisplay>#main>#half1>#coupon>button:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+#cartDisplay>#main>#half1>#terms>p{
+margin-bottom: 16px;
+margin-top: 18px;
+}
+#checkoutDiv>div{
+    width:259px;
+    align-content: end;
+    margin-left: auto;
+    margin-right: 10px;
+}
+#checkoutDiv>div>button{
+    width:259px;
+    margin: 6px 0px;
+    height: 59px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+#checkoutDiv>div>img{
+    width:200px;
+
+}
+
+@media only screen and (min-width:0px) and (max-width:420px){
+    #cartDisplay>#main{
+        display:block;
+    }
+    #cartDisplay>#main>div{
+        width:100%;
+        margin: auto;
+    }
+    #checkoutDiv>div{
+        width:259px;
+        align-content: end;
+        margin: auto;
+        margin-top:20px;
+    }
+    #cartDisplay>#main>#half2>#subdiv{
+        display: flex;
+        justify-content: space-between;
+        width:90%;
+        margin: auto;
+        font:16px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        padding: 5px 20px 5px 10px;
+    }
+    #cartDisplay>#main>#half2>#orderDiv{
+            display:flex;
+            justify-content: space-between;
+            width:90%;
+            margin:auto ;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            padding: 5px 20px 5px 10px;
+    }
+    #cartDisplay>#main>#half1{
+            text-align: left;
+            font: 16px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+          width:90%;
+            color:#231f20;
+    }
+    #cartDisplay>#main>#half1>#coupon{
+     display:flex;
+     width:90%;
+    } 
+    #cartDisplay>#main>#half1>#coupon>button{
+        color:white;
+        background-color: black;
+        height:62.5px;
+        border:1px;
+        width:40%;
+        padding:20px 40px;
+    
+    }
+    #cartDisplay>#main>#half1>#coupon>input{
+        border: 2px solid black;
+        padding : 0px 12px;
+        height:59px;
+        width:60%;
+    }
+
+ }
+
+
+

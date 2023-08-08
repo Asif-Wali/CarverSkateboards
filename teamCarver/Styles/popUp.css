@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+#Pop_up{
+    width: 400px;
+    height: 180px;
+    /* border: 1px solid red;
+    height: 340px; */
+    position: fixed;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    visibility: hidden;
+    /* display: none; */
+    transition: transform 0.4s,top 0.4s;
+    text-align: center;
+    padding: 20px 30px;
+    background-color:#ffffff;
+    box-shadow: 10px 10px 10px rgba(38, 57, 77, 0.1),
+    -10px -10px 10px rgba(38, 57, 77, 0.1),
+    10px -10px 10px rgba(38, 57, 77, 0.1),
+    -10px 10px 10px rgba(38, 57, 77, 0.1);
+
+    border-radius: 10px;
+    color: rgb(14, 8, 8);
+     color: #00525d; 
+  }
+  #POP_Top>img{
+    width:50px;
+  }
+  #POP_Bottom{
+    margin-top: 20px;
+
+  }
+  #Sub_Pin{
+    margin-top: 20px;
+    width:100px;
+    height:50px;
+    color:white;
+    background-color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  

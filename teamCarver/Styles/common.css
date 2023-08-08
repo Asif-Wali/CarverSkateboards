@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+#navbar{
+    background-color:#353535;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 94px; */
+ }
+ .logo>img{
+     padding: 0px;
+     width: 200px;
+     height: 50px;
+ }
+ #navbar>div{
+     display: flex;
+     gap:20px;
+     padding:10px;
+ }
+ #navbar>div>a{
+     text-decoration: none;
+     color:white;
+     font-size:small;
+ }
+ .bar{
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: white;
+ }
+ #navbar .hamburger{
+     margin-left: 5px;
+     display: none;
+ }
+ #navbar .mobilebag{
+     display: none;
+ }
+ #footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #353535;
+    color: white;
+}
+#footer p+a{
+    margin-top:20px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+#footer input{
+    height: 40px;
+    font-family: 'Urbanist', sans-serif;
+}
+#footer button{
+    height: 40px;
+    background-color: #FFFF00;
+    font-family: 'Urbanist', sans-serif;
+}
+#footer>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+#footer>div:nth-child(1)>div{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+#footer>div:nth-child(1)>div>input{
+    width:20px;
+}
+#footer>div:nth-child(2){
+    margin-top: 20px;
+    display: flex;
+    gap:10px;
+}
+#footer>div:nth-child(2)>div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+@media only screen and (max-width:1200px){
+    #navbar .hamburger{
+        display: block;
+     }
+    .functions{
+        display: none !important;
+     }
+    #navbar .mobilebag{
+        display: block;
+     }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+     }
+    .hamburger.active .bar:nth-child(1){
+        transform:translateY(8px) rotate(45deg);
+     }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+     }
+    .navlinks{
+        position: fixed;
+        left: -1000%;
+        top:80px;
+        gap:0px;
+        flex-direction: column;
+        background-color:#353535;
+        width: 100%;
+        text-align: center;
+        transition: 0.5s ease-in-out;
+     }
+     
+    .navlinks.active{
+        left: 0;
+        transition: 0.5s ease-in-out;
+     }
+    #footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+   
+
+}

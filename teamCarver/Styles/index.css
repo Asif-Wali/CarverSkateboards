@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    background-color:#E6E6E6;
+}
+#announcement{
+    background-color:#C0D601;
+    text-align: center;
+}
+#navbar{
+   background-color:#353535;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* height: 94px; */
+}
+.logo>img{
+    padding: 0px;
+    width: 200px;
+    height: 50px;
+}
+#navbar>div{
+    display: flex;
+    gap:20px;
+    padding:10px;
+}
+#navbar>div>a{
+    text-decoration: none;
+    color:white;
+    font-size:small;
+}
+.bar{
+     display: block;
+     width: 25px;
+     height: 3px;
+     margin: 5px auto;
+     -webkit-transition: all 0.3s ease-in-out;
+     transition: all 0.3s ease-in-out;
+     background-color: white;
+}
+#navbar .hamburger{
+    margin-left: 5px;
+    display: none;
+}
+#navbar .mobilebag{
+    display: none;
+}
+.hero>p:nth-child(1){
+    font-size:26vw;
+    margin: 0px;
+    padding:0px;
+}
+.hero>p:nth-child(2){
+    text-align: center;
+    margin-left: 15vw;
+    margin-top:-5vw;
+}
+.ad1{
+    display: flex;
+    margin-top:10px;
+    justify-content: space-between;
+}
+.ad1img1>img{
+    width: 300px;
+    height: 200px;
+    padding-left:20px;
+    margin-top: 200px;
+}
+.ad1img2>img{
+    width: 400px;
+    height: 400px;
+    padding-right:30px;
+    
+}
+.ad1text>p:not(p:first-of-type){
+    font-size: xxx-large;
+    text-align: center;
+}
+.ad1text>p:first-of-type,.ad1text>a{
+    text-align: center;
+}
+.ad1text a{
+    color: black;
+}
+.ad1text>p:last-of-type>a{
+    font-size:medium;
+    vertical-align: top;
+}
+.ad2product1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 20px;
+    margin-right:10px;
+    align-items: flex-end;
+}
+.ad2product1 img{
+    width: 300px;
+    height: 300px;
+}
+.ad2product1 p{
+    width: 300px;
+ 
+}
+.ad2product1 img+p{
+    margin-bottom: 10px;
+}
+.ad2product1 button{
+    width:300px;
+    background-color: yellow;
+    border:none;
+    padding:10px;
+    font-size:small;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Urbanist', sans-serif;
+}
+.Text{
+    font-size: xxx-large;
+}
+.italicText{
+    font-style: italic;
+}
+.ad2product1>div>div:nth-child(1)>img{
+    width: 400px;
+    height: 450px;
+}
+.ad2product1>div:nth-child(2)>img{
+    margin-top:100px;
+}
+.ad2product1>div:nth-child(2)>p{
+    background-color:#FFFF00;
+}
+.ad2product1>div:nth-child(2)>p:first-of-type{
+    margin-top: -4px;
+}
+.ad2product1 p{
+    font-size:small;
+}
+.ad2product1>div:first-of-type{
+    display: flex;
+    gap:10px;
+    align-items: flex-end;
+}
+.ad2product1>div:last-of-type{
+    align-items:end;
+    display: flex;
+    flex-direction: column;
+}
+.ad2product1>div:last-of-type>div{
+    background-color: #FFFF00;
+    gap:10px;
+    align-items: flex-end;
+    
+}
+.ad2product1>div>div:last-of-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+}
+iframe{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.ad4{
+    display: flex;
+    padding:20px;
+    justify-content: space-between;
+}
+.ad4 img{
+    width: 300px;
+    height: 300px;
+}
+.ad4 p{
+    width:300px;
+    font-size:small;
+}
+.ad4 button{
+    border: none;
+    background-color: #FFFF00;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Urbanist', sans-serif;
+}
+.ad4 img+p{
+    margin-bottom: 10px;
+}
+.ad4>div:nth-child(1){
+    display: flex;
+    gap:10px;
+}
+.ad4>div:nth-child(1)>div:last-child{
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   gap:20px;
+}
+.ad5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding:20px;
+}
+.ad5 p{
+    font-size: small;
+}
+.ad5 img:first-of-type{
+    width: 600px;
+    height: 400px;
+}
+.ad5 a{
+    color: black;
+}
+.ad5>div:nth-child(2)>img{
+    width: 300px;
+    height: 200px;
+}
+.ad5>div:nth-child(2){
+    display: flex;
+    align-items:flex-end ;
+}
+.ad5>div:nth-child(1){
+    display: flex;
+    gap:20px;
+}
+.ad5>div:nth-child(1)>div:nth-child(2){
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.ad6{
+    display:flex;
+    padding: 20px;
+    gap:10px
+}
+.ad6 p{
+    width: 300px;
+}
+.ad6>div{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+.ad6>div:nth-child(1)>img{
+    width: 300px;
+}
+.ad6>div:nth-child(2){
+    width: 300px;
+    align-self: flex-start;
+}
+.ad6>div:nth-child(3)>img{
+    width: 300px;
+}
+.ad6>div:nth-child(3){
+    font-size:small;
+}
+.ad6>div:nth-child(4)>img{
+    width: 500px;
+}
+.date{
+    text-align: end;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #353535;
+    color: white;
+}
+#footer p+a{
+    margin-top:20px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+#footer input{
+    height: 40px;
+    font-family: 'Urbanist', sans-serif;
+}
+#footer button{
+    height: 40px;
+    background-color: #FFFF00;
+    font-family: 'Urbanist', sans-serif;
+}
+#footer>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+#footer>div:nth-child(1)>div{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+#footer>div:nth-child(1)>div>input{
+    width:20px;
+}
+#footer>div:nth-child(2){
+    display: flex;
+    gap:10px;
+}
+#footer>div:nth-child(2)>div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+@media only screen and (max-width:1200px){
+    #navbar .hamburger{
+        display: block;
+     }
+    .functions{
+        display: none !important;
+     }
+    #navbar .mobilebag{
+        display: block;
+     }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+     }
+    .hamburger.active .bar:nth-child(1){
+        transform:translateY(8px) rotate(45deg);
+     }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+     }
+    .navlinks{
+        position: fixed;
+        left: -1000%;
+        top:80px;
+        gap:0px;
+        flex-direction: column;
+        background-color:#353535;
+        width: 100%;
+        text-align: center;
+        transition: 0.5s ease-in-out;
+     }
+     
+     .navlinks.active{
+        left: 0;
+        transition: 0.5s ease-in-out;
+     }
+     .ad1{
+        background-image:url(../Images/desktop-wallpaper-surf-skate-de-longboard-en-dowtow-surf-longboard.jpg);
+        align-items: center;
+        justify-content: center;
+     }
+    
+     .ad1img1,.ad1img2{
+        display: none;
+     }
+     .ad2product1{
+        flex-direction: column;
+        align-items: center;
+     }
+     .ad2product1>div{
+        flex-direction: column;
+     }
+     .ad2product1>div:first-of-type{
+        align-items: center;
+     }
+     .ad4{
+        flex-direction: column;
+        align-items: center;
+     }
+     .ad4>div{
+        flex-direction: column;
+        align-items: center;
+     }
+    .ad5{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ad5>div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ad6{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ad6>div{
+        align-self: center;
+        align-items: center;
+    }
+    #footer{
+        flex-direction: column;
+        align-items: center;
+    }
+  
+   
+
+}

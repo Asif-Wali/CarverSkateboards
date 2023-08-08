@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/signin.css" />
+    <link rel="stylesheet" href="./CSS/common.css" />
+
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="hamburger">
+           <span class="bar"></span>
+           <span class="bar"></span>
+           <span class="bar"></span> 
+        </div>
+        <div class="logo">
+            <img src="Images/carver-logo-header.webp" alt="">
+        </div>
+        <div class="navlinks">
+            <a href="productDetail.html">SURFSCATES</a>
+            <a href="">EXTRAS</a>
+            <a href="">CLOTHES AND ACCESSORIES</a>
+            <a href="">SALE</a>
+        </div>
+        <div class="functions">
+            <a href="">SEARCH</a>
+            <a href="signinpage.html">SIGNIN</a>
+            <a href="cart.html">BAG</a>
+        </div>
+        <div class="mobilebag">
+            <a href="">BAG</a>
+        </div>
+    </div>
+
+    <!-- main signin............................................... -->
+    <h1 id="head">SIGN IN</h1>
+
+    <div id="massage-signout">
+        <div id="message" style="display: none;">
+            <p id="message-text"></p>
+        </div>
+        <div>
+        <button id="logout" style="display: none;">Sign Out</button>
+    </div>
+    </div>
+
+    <form action="">
+        <div id="main">
+            <div id="sign">
+                <div id="head-sign">
+                    <h1>SIGN IN</h1 >
+                </div>
+                <div id="gmail">
+                    <label for="email"></label>
+                    <input type="text" name="login_email" id="login_email" placeholder="Enter your email" />
+                </div>
+                <div  id="pass">
+                    <label for="password"></label>
+                    <input type="password" name="login_password" id="login_password"
+                        placeholder="Enter your password">
+                </div>
+                <div id="forget">
+                <a href="Forget Password.html">Forget password?</a>
+                 </div>
+                <button type="button" id="login" name="login" class="btn btn-success">SIGN IN</button>
+            </div>
+
+            <div id="reg">
+                <div id="reg-head">
+                    <h1>REGISTER</h1>
+                </div>
+
+                <ul id="point">
+                    <li id="line">Create an account with us and you'll be able to:</li>
+                    <li id="line">Check out faster</li>
+                    <li id="line">Save multiple shipping addresses</li>
+                    <li id="line">Access your order history</li>
+                    <li id="line">Track new orders</li>
+                    <li id="line">Save items to your Wish List</li>
+                </ul>
+                <div id="reg-button">
+                <button onclick="location.href='signup.html'" type="button" id="register" name="register"
+                    class="btn-register">REGISTER</button>
+            </div>
+            </div>
+        </div>
+    </form>
+
+    <div id="footer">
+        <div>
+            <p>SUBSCRIBE</p>
+            <input type="text" placeholder="Enter your email">
+            <button>Subscribe</button>
+            <div>
+                <input type="checkbox" id="marketing">
+                <label for="marketing">By checking this box,i'm opting in to marketing from early majority</label>
+            </div>
+        </div>
+        <div>
+            <div>
+                <p>COMPANY</p>
+                <a href="">About us</a>
+                <a href="">Be an ambassador</a>
+                <a href="">Team</a>
+                <a href="">Board selector</a>
+            </div>
+            <div>
+                <p>SUPPORT</p>
+                <a href="">Shipping and delivery</a>
+                <a href="">Return</a>
+                <a href="">FAQ</a>
+                <a href="">Size quide</a>
+            </div>
+            <div>
+                <p>INFO</p>
+                <a href="">Terms of service</a>
+                <a href="">Privacy</a>
+                <a href="">FAQ</a>
+                <a href="">Contacts</a>
+            </div>
+            <div>
+                <p>FOLLOW US</p>
+                <a href="">Twitter</a>
+                <a href="">Instagram</a>
+                <a href="">facebook</a>
+            </div>
+        </div>
+    </div>
+        
+    </body>
+    </html>
+
+    <script src="./Script/signin.js" type="module"></script>
